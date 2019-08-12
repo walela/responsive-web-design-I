@@ -115,11 +115,20 @@ nav a {
         margin-bottom: 20px;
     }
     .main-header nav {
+     
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+    }
+    .navigation {
+        width: 100%;
+        margin: 0px;
     }
     .main-header nav a {
-        border-top: 2px solid grey;
+        border-top: 1px solid grey;
+        text-align: center;
+    }
+    .main-header nav a:last-child{
+        border-bottom: 1px solid grey;
     }
 }
 .subheader {
